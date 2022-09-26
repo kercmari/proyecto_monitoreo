@@ -156,6 +156,7 @@ sudo ufw allow 'Nginx Full'
 
   Una vez inslado pytohn y virtualenv
   instalar los requerimientos
+  
   `pip install -r requirements.txt`
   
   Por ultimo 
