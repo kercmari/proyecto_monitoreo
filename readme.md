@@ -165,6 +165,7 @@ sudo ufw allow 'Nginx Full'
   $ python3 -m venv venv
   $ source venv/bin/activate 
   `
+  
   Por ultimo coorrer el programa usando: 
 
   `python index.py`
