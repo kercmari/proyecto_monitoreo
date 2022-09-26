@@ -57,7 +57,8 @@ permita todo el tráfico 0.0.0.0/0
 
 ### Levantar Kibana y ElastichSearch
 
-`sh -i <path to .pem file> ubuntu@<dns name>
+```
+sh -i <path to .pem file> ubuntu@<dns name>
 
 sudo apt-get update
 
@@ -137,7 +138,8 @@ sudo nginx -t
 
 sudo systemctl restart nginx
 
-sudo ufw allow 'Nginx Full'`
+sudo ufw allow 'Nginx Full'
+```
 ## Levantamiento del Web Services Flask 
 - Instalar servicios 
 
