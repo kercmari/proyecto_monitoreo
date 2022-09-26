@@ -12,7 +12,7 @@
  
   
 <h3> Descripción del Proyecto </h3>
-<p class="text-align-justify">El proyecto consta de tres agentes de reacoleccion de datos, cada uno trabaja con un script diferente.
+<p css="text-align: justify;">El proyecto consta de tres agentes de reacoleccion de datos, cada uno trabaja con un script diferente.
 Existen 3 script que limpian y filtran la data para enviarla al EC2, el cual se encargado de sincronizar 
 los datos y almacenarlos en MySQL. Una vez llenado las tablas se enviaran cada minuto a Elasticsearch. 
 El repositoro que utiliza el web service Flask debe 
