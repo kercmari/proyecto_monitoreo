@@ -21,21 +21,20 @@ estar instalado en el EC2 y esperar los request de los agentes de monitoreo.</p>
 
 ## Despliegue de Proyecto
 
-Deploy estara habilitado hasta 30/09/2022
-Proyecto levantado en http://44.204.82.115:9200/aps/_search
+### Deploy estara habilitado hasta 30/09/2022
+### Proyecto levantado en http://44.204.82.115:9200/aps/_search
 
-Portal de Kibana estara habulitado hasta  
+### Portal de Kibana   
 Para ingresar dirigirse a http://44.204.82.115/
-Para iniciar sesion
-Solicitar credenciales a:
-kercmari@espol.edu.ec
-yorodrig@espol.edu.ec
+### Para iniciar sesion solicitar credenciales a los siguientes correos:
+-kercmari@espol.edu.ec
+-yorodrig@espol.edu.ec
 
-Dirigirse a menu (=) izquiera superior y luego Analytics, en la 
-sección de dashboard.
+### Dashboard
+Dirigirse al menu (=) en la parte superior izquierda y luego Analytics
 
 
-Fases para levantamiento del Proyecto
+### Fases para levantamiento del Proyecto
 1. Recopilación de datos
 1.1 Agente SNMP
 Se utiliza el script de Python alojado en el directorio 
