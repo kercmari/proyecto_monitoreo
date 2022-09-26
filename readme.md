@@ -159,13 +159,12 @@ sudo ufw allow 'Nginx Full'
   
   `pip install -r requirements.txt`
   
- Ejecutar estos comandos para activar el environmet
+  Ejecutar estos comandos para activar el environmet
   
   `
   $ python3 -m venv venv
   $ source venv/bin/activate 
   `
-  
   Por ultimo coorrer el programa usando: 
 
   `python index.py`
