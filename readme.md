@@ -166,6 +166,6 @@ sudo ufw allow 'Nginx Full'
   $ source venv/bin/activate 
   `
   
-  Por ultimo coorrer el programa usando: 
+  Por ultimo ejecutar el programa usando: 
 
   `python index.py`
