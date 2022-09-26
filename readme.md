@@ -37,21 +37,24 @@ Dirigirse al menu (=) en la parte superior izquierda y luego Analytics
 ## Fases para levantamiento del Proyecto
 ### Recopilación de datos
 - Agente SNMP
+
 Se utiliza el script de Python alojado en el directorio: 
 /snmp/script/get_and_post_snpm_script.py  para obtener los datos de la controladora.
 
 - Agente Wireshark
+
 Aqui se capturaron datos y muestras de paquestes 
 tshark -b filesize:6000 -a files:10 -w traffic.pcapng
 - Agente Rasberry Pi
 
-- Levantamiento del Servidor EC2
+### Levantamiento del Servidor EC2
 Se instalo una instancia en AWS EC2 instancia  EC2  Ubuntu t4g.xlarge
 con 2GB de RAM y 30 GB de almacenamiento. Para efectos de prueba 
 se utilizó la configuración de seguridad de forma general, que 
 permita todo el tráfico 0.0.0.0/0 
 
-- Levantar Kibana y ElastichSearch
+### Levantar Kibana y ElastichSearch
+
 `
 sh -i <path to .pem file> ubuntu@<dns name>
 
@@ -135,19 +138,26 @@ sudo systemctl restart nginx
 
 sudo ufw allow 'Nginx Full'
 `
-4. Levantamiento del Web Services Flask 
-4.0 Instalar servicios 
+## Levantamiento del Web Services Flask 
+- Instalar servicios 
+
 python3 -m venv entorno
+
 sudo apt install python3-virtualenv
-4.1 Crear el environment
+- Crear el environment
+
 En este caso no es necesario crearlo porque ya existe, solo se debe desacargr el repo del api
 que se encuentra en el siguiente directorio proyecto_monitoreo/flask_api_web_serivce/
-4.2 Correr el servicio
+
+- Correr el servicio
+
 Una vez inslado pytohn y virtualenv
 instalar los requerimientos
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 Por ultimo 
+`
 $ python3 -m venv venv
 $ source venv/bin/activate 
+`
 ejecuta estos comandos para activar el environmet
 y correrlo con python index.py
