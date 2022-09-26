@@ -143,23 +143,23 @@ sudo ufw allow 'Nginx Full'
 ## Levantamiento del Web Services Flask 
 - Instalar servicios 
 
-python3 -m venv entorno
+  python3 -m venv entorno
 
-sudo apt install python3-virtualenv
+  sudo apt install python3-virtualenv
 - Crear el environment
 
-En este caso no es necesario crearlo porque ya existe, solo se debe desacargr el repo del api
-que se encuentra en el siguiente directorio proyecto_monitoreo/flask_api_web_serivce/
+  En este caso no es necesario crearlo porque ya existe, solo se debe desacargr el repo del api
+  que se encuentra en el siguiente directorio proyecto_monitoreo/flask_api_web_serivce/
 
 - Correr el servicio
 
-Una vez inslado pytohn y virtualenv
-instalar los requerimientos
-`pip install -r requirements.txt`
-Por ultimo 
-`
-$ python3 -m venv venv
-$ source venv/bin/activate 
-`
-ejecuta estos comandos para activar el environmet
-y correrlo con python index.py
+  Una vez inslado pytohn y virtualenv
+  instalar los requerimientos
+  `pip install -r requirements.txt`
+  Por ultimo 
+  `
+  $ python3 -m venv venv
+  $ source venv/bin/activate 
+  `
+  ejecuta estos comandos para activar el environmet
+  y correrlo con python index.py
