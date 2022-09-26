@@ -25,7 +25,7 @@ estar instalado en el EC2 y esperar los request de los agentes de monitoreo.</p>
 ### Proyecto levantado en http://44.204.82.115:9200/aps/_search
 
 ### Portal de Kibana   
-Para ingresar dirigirse a [http://44.204.82.115/]
+Para ingresar dirigirse a http://44.204.82.115/
 ### Para iniciar sesion solicitar credenciales a los siguientes correos:
 - kercmari@espol.edu.ec
 - yorodrig@espol.edu.ec
@@ -34,27 +34,25 @@ Para ingresar dirigirse a [http://44.204.82.115/]
 Dirigirse al menu (=) en la parte superior izquierda y luego Analytics
 
 
-### Fases para levantamiento del Proyecto
-- 1. Recopilación de datos
-    - 1.1 Agente SNMP
-### Se utiliza el script de Python alojado en el directorio: 
-[/snmp/script/get_and_post_snpm_script.py ]
-para obtener los datos de la controladora
+## Fases para levantamiento del Proyecto
+### Recopilación de datos
+- Agente SNMP
+Se utiliza el script de Python alojado en el directorio: 
+/snmp/script/get_and_post_snpm_script.py  para obtener los datos de la controladora.
 
-1.2 Agente Wireshark
+- Agente Wireshark
 Aqui se capturaron datos y muestras de paquestes 
-
 tshark -b filesize:6000 -a files:10 -w traffic.pcapng
-1.3 Agente Rasberry Pi
+- Agente Rasberry Pi
 
-2. Levantamiento del Servidor EC2
+- Levantamiento del Servidor EC2
 Se instalo una instancia en AWS EC2 instancia  EC2  Ubuntu t4g.xlarge
 con 2GB de RAM y 30 GB de almacenamiento. Para efectos de prueba 
 se utilizó la configuración de seguridad de forma general, que 
 permita todo el tráfico 0.0.0.0/0 
 
-3. Levantar Kibana y ElastichSearch
-
+- Levantar Kibana y ElastichSearch
+`
 sh -i <path to .pem file> ubuntu@<dns name>
 
 sudo apt-get update
@@ -136,7 +134,7 @@ sudo nginx -t
 sudo systemctl restart nginx
 
 sudo ufw allow 'Nginx Full'
-
+`
 4. Levantamiento del Web Services Flask 
 4.0 Instalar servicios 
 python3 -m venv entorno
