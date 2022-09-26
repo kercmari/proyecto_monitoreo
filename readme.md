@@ -15,6 +15,6 @@
 <p class="text-align-justify">El proyecto consta de tres agentes de reacoleccion de datos, cada uno trabaja con un script diferente.
 Existen 3 script que limpian y filtran la data para enviarla al EC2, el cual se encargado de sincronizar 
 los datos y almacenarlos en MySQL. Una vez llenado las tablas se enviaran cada minuto a Elasticsearch. 
-Aqui esta el repositoro de web service flask https://github.com/kercmari/proyecto_monitoreo.git, este debe 
-estar instalado en el EC2 esperar los request de los agentes de monitoreo.</p>    
+El repositoro que utiliza el web service Flask debe 
+estar instalado en el EC2 y esperar los request de los agentes de monitoreo.</p>    
 
