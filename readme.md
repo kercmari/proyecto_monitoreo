@@ -38,16 +38,17 @@ Dirigirse al menu (=) en la parte superior izquierda y luego Analytics
 ### Recopilación de datos
 - Agente SNMP
 
-    Se utiliza el script de Python alojado en el directorio: 
-    `/snmp/script/get_and_post_snpm_script.py`  para obtener los datos de la controladora.
+  Se utiliza el script de Python alojado en el directorio: 
+  `/snmp/script/get_and_post_snpm_script.py`  para obtener los datos de la controladora.
 
 - Agente Wireshark
 
-    Aqui se capturaron datos y muestras de paquestes 
-    tshark -b filesize:6000 -a files:10 -w traffic.pcapng
+  Aqui se capturaron datos y muestras de paquestes 
+  tshark -b filesize:6000 -a files:10 -w traffic.pcapng
+  
 - Agente Rasberry Pi
-
-    Se instalo sparrow wifi, seguir los pasos en el siguiente link: https://github.com/ghostop14/sparrow-wifi
+  
+  Se instalo sparrow wifi, seguir los pasos en el siguiente link: https://github.com/ghostop14/sparrow-wifi
 
 ### Levantamiento del Servidor EC2
 Se instalo una instancia en AWS EC2 instancia  EC2  Ubuntu t4g.xlarge
