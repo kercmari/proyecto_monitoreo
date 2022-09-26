@@ -1,6 +1,5 @@
-<h1 align="center"> SHIPTRACKER 💯 </h1>
-
-> Sistema Unificado de Monitoreo de Calidad de Servicio y Calidad de Experiencia en Redes Wi-Fi
+<h1 align="center"> Sistema Unificado de Monitoreo de Calidad de Servicio y Calidad de Experiencia en Redes Wi-Fi </h1>
+> 
 <h3> Members </h3>
 
 <div align="center">
@@ -8,7 +7,7 @@
   <tr>
     <td align="center"><a href="https://github.com/kercmari"><img src="https://avatars.githubusercontent.com/u/62037369?v=4" width="100px;" alt=""/><br /><sub><b>Kerly Cervantes</b></sub></a><br/><a>🌹</a></td>
 <td align="center"><a href="https://github.com/YiamRodriguezDelgado"><img src="https://avatars.githubusercontent.com/u/44529630?v=4" width="100px;" alt=""/><br /><sub><b>Yiam Rodriguez</b></sub></a><br/><a>😎</a></td>
-  
+</table>  
 ## Descripción del Proyecto
     
 El proyecto consta de tres agentes de reacoleccion de datos, cada uno trabaja con un script diferente.
