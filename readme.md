@@ -1,5 +1,5 @@
 <h1 align="center"> Sistema Unificado de Monitoreo de Calidad de Servicio y Calidad de Experiencia en Redes Wi-Fi </h1>
-> 
+
 <h3> Members </h3>
 
 <div align="center">
@@ -9,9 +9,9 @@
 <td align="center"><a href="https://github.com/YiamRodriguezDelgado"><img src="https://avatars.githubusercontent.com/u/44529630?v=4" width="100px;" alt=""/><br /><sub><b>Yiam Rodriguez</b></sub></a><br/><a>😎</a></td>
 </table>  
 ## Descripción del Proyecto
-    
-El proyecto consta de tres agentes de reacoleccion de datos, cada uno trabaja con un script diferente.
+<p class="text-align-justify">El proyecto consta de tres agentes de reacoleccion de datos, cada uno trabaja con un script diferente.
 Existen 3 script que limpian y filtran la data para enviarla al EC2, el cual se encargado de sincronizar 
 los datos y almacenarlos en MySQL. Una vez llenado las tablas se enviaran cada minuto a Elasticsearch. 
 Aqui esta el repositoro de web service flask https://github.com/kercmari/proyecto_monitoreo.git, este debe 
-estar instalado en el EC2 esperar los request de los agentes de monitoreo.
+estar instalado en el EC2 esperar los request de los agentes de monitoreo.</p>    
+
